@@ -1,0 +1,75 @@
+# =========================
+# Datasets & generated data
+# =========================
+Data/
+data/
+dataset/
+datasets/
+
+# BUT keep example data
+!example/
+!example/**
+
+# =========================
+# Model checkpoints
+# =========================
+checkpoints/
+weights/
+models/
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Logs & outputs
+# =========================
+logs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# =========================
+# Generated images
+# =========================
+samples/
+outputs/
+results/
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+.env/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore datasets
+Data/
+
+# Ignore all images by default
+*.png
+*.jpg
+*.jpeg
+
+# Allow example folder and its images
+!example/
+!example/*.png
+!example/*.jpg
+!example/*.jpeg
